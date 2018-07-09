@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(cart-pole)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+add_executable(play0 main_0.cpp)
+add_executable(play1 main_1.cpp)
+add_executable(play2 main_2.cpp)
