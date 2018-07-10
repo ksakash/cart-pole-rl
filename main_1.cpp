@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
     value_before.resize(91);
     value_after.resize(91);
 
-    int iterations = 10;
+    int iterations = 30;
 
     for (int i = 0; i < iterations; i++) {
         std::cout << "[ Iteration " << i << " ]: " << std::endl;
